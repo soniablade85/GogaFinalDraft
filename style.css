@@ -1,0 +1,122 @@
+ .navbar-brand {
+    float: left;
+    height: auto;
+    width: auto;
+    display: table;
+    margin-left: 0;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn) i.far, 
+.navbar .navbar-nav .nav-link:not(.btn) i.now-ui-icons {
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+    text-align: center;
+    width: 21px;
+}
+
+.far {
+    opacity:.5;
+}
+
+.carousel-item {
+    margin: 0;
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-out 1.7s;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+.carousel.carousel-fade .carousel-item:first-child {
+    top: auto;
+    position: relative;
+    transition: opacity ease-out 1.7s;
+}
+.carousel.carousel-fade .carousel-item:second-child {
+    top: auto;
+    position: relative;
+    transition: opacity ease-out 1.7s;
+}
+.carousel-item .img-fluid {
+    margin: 0 auto;
+}
+.carousel img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.drk:after {
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0000FF;
+    opacity: 0.3;
+}
+
+.carousel-caption {
+    position: absolute;
+    font-size: relative;
+}
+.h2 {
+    font-weight: bold;
+    text-shadow: 2px 2px #3b3939;
+}
+
+.p {
+    font-weight: bold;
+    text-shadow: 1px 1px #3b3939;
+}
+
+.main {
+    margin-top: 0;
+}
+
+.p {
+    font-weight: bold;
+    color: #dee2e6;
+}
+
+.team-player {
+    width: 100%;
+    margin-top: 0;   
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-info {
+    color:#697edb;
+}
+
+.btn-info:focus {
+    color: #697edb;
+    background-color: #697edb;
+}
+
+#footer !important {
+    margin:0;
+    margin-bottom: 0;
+    height:auto;
+    width:100%;
+    bottom:0;
+}
+
